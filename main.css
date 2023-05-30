@@ -46,6 +46,18 @@ header .container{
 .container a{
   background-color: #2f3640;
   color:  rgb(84, 116, 106);
+  text-decoration: none;
+  padding: 8px;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.container a:hover{
+  background-color: #2f3640;
+  color:  rgb(14, 236, 166);
+  text-decoration: underline;
 }
 
 header li{
@@ -67,17 +79,6 @@ header li{
   margin-top: 8px;
   margin-bottom:8px;
   font-size: 24px
-}
-
-.articles article a{
-  background-color:  rgb(22, 58, 27);
-  color:  rgb(84, 116, 106);
-  padding: 8px;
-  display: inline-block;
-  text-decoration:none;
-  font-weight: bold;
-  margin-top: 8px;
-  border-radius: 8px;
 }
 
 section{
@@ -108,10 +109,76 @@ section h2{
   background-color: rgb(8, 41, 31);
 }
 
+#esporte .articles article a{
+  background-color:  rgb(22, 58, 27);
+  color:  rgb(122, 175, 158);
+  padding: 8px;
+  display: inline-block;
+  text-decoration:none;
+  font-weight: bold;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+#esporte .articles article a:hover{
+  background-color:  rgb(35, 80, 41);
+  color:  rgb(14, 212, 150);
+  padding: 8px;
+  display: inline-block;
+  text-decoration:underline;
+  font-weight: bold;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
 #entretenimento {
   background-color: rgb(14, 78, 59);
 }
 
+#entretenimento .articles article a{
+  background-color:  rgb(1, 78, 12);
+  color:  rgb(86, 139, 123);
+  padding: 8px;
+  display: inline-block;
+  text-decoration:none;
+  font-weight: bold;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+#entretenimento .articles article a:hover{
+  background-color:  rgb(9, 97, 22);
+  color:  rgb(166, 221, 102);
+  padding: 8px;
+  display: inline-block;
+  text-decoration:underline;
+  font-weight: bold;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
 #tecnologia{
   background-color:rgb(13, 90, 77);
+}
+
+#tecnologia .articles article a{
+  background-color:  rgb(3, 129, 98);
+  color:  rgb(115, 189, 165);
+  padding: 8px;
+  display: inline-block;
+  text-decoration:none;
+  font-weight: bold;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+#tecnologia .articles article a:hover{
+  background-color:  rgb(34, 179, 142);
+  color:  rgb(64, 38, 156);
+  padding: 8px;
+  display: inline-block;
+  text-decoration:underline;
+  font-weight: bold;
+  margin-top: 8px;
+  border-radius: 8px;
 }
